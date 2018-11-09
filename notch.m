@@ -21,6 +21,7 @@ F = fftshift(fft2(A));
 S = log(1 + abs(F));
 imshow(S,[]);
 [x0,y0] = getpts();
+%Select the Points having distinct white lights on the displayed image and then press "Enter"
 title('Magnitude Spectrum of the Original Image');
 figure;
 
